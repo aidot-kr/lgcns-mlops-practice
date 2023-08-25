@@ -98,6 +98,7 @@ def log_feature_importance(
         train (pd.DataFrame): 학습 데이터
         model (GradientBoostingRegressor): 모델
     """
+
     feature_imp = (
         pd.DataFrame(
             model.feature_importances_,

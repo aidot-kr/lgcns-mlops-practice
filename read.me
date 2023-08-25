@@ -1,3 +1,6 @@
+# 개발환경 실행
+pipenv shell  #가상환경 실행
+
 # git add, commit (local 저장소)
 (.venv) @aidot-kr ➜ /workspaces/lgcns-mlops-practice (main) $ git add .pre-commit-config.yaml
 (.venv) @aidot-kr ➜ /workspaces/lgcns-mlops-practice (main) $ git add Pipfile
@@ -6,3 +9,30 @@
 
 # 로컬에서 github로 push, pull
 git push origin
+
+# Codespace 명령어
+- reload: Ctrl + shift + P
+
+# 변수 명명규칙
+ _변수명 : 향후 사용되지 않는 _변수명
+ __변수명 : 숨기기 위한 변수명(함수명도 동일)
+ _함수_함수명
+
+# 크론탭
+ crontab -e #크론탭 편집환경으로 시작
+ crontab -l #현재 크론탭 실행확인
+
+  * * * * * command
+  분 시 일 월 요일
+  커맨드 예시) 09 4 * * * sh /workspace/lgcns-mlops-practice/batch_predictio.sh
+
+# GNU nano 커맨드
+  https://sungje365.tistory.com/17
+  CTRL + X : 종료
+  CTRL + S : 현재파일저장
+
+# bentoML 예시
+https://github.com/bentoml
+
+# 팀실습
+- bentoml 위주로 구성
